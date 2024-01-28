@@ -1,0 +1,361 @@
+@font-face {font-family:'nothing';src: url(fonts/Nothing.otf);}   /*To import custom fonts*/
+@font-face {font-family:'roboto';src:url(fonts/Roboto-Light.ttf);}
+@font-face {font-family:'someday';src:url(fonts/Someday.otf);}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body h1{
+    font-family:'nothing'; /*custom fonts*/
+}
+
+body p{
+    font-family:'allegation'; /*custom fonts*/
+}
+
+body.index{
+    height:250vh;
+    background:url(images/ocean.png);
+    background-size: cover;
+    
+}
+
+.navbar{
+    background-image:linear-gradient(#03203D,#1a3275); /*Gradient for Navbar*/
+    height:5vh;
+    width:100%;
+    padding:10px;
+    text-align:center;
+    padding-top:15px;
+    top:0;
+    position:fixed;
+    z-index:2;
+}
+
+.navbar #links{
+    display:inline;
+
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    padding:2vh;
+    font-size:large;
+}
+#links a:hover{
+    transition: .9;
+    font-size:x-large;
+    color:cadetblue;
+}
+
+#bgvid{ /*Background Video for Banner*/
+    width:100%;
+    height:38.35vw;
+    object-fit: cover;
+    z-index:0;
+    position:absolute;
+    margin-top:-26vh;
+}
+
+.banner{
+    background:black;
+    opacity:70%;
+    margin-top:35vh;
+    height:20vh;
+    color:white;
+    text-align:center;
+    margin-bottom:50vh;
+    z-index:1;
+    font-size:xx-large;
+}
+
+.banner h1{
+    opacity:100%;
+    padding-top:10px;
+}
+
+.banner p{
+    opacity: 100%; /*To change the opacity of banner and make the video behind visible*/
+    padding-top:5px;
+    font-size:large;
+}
+
+.orgbg{
+    margin-left:15vw;
+    color:white;
+    margin-bottom:60vh;
+    font-size:x-large;
+}
+
+.orgbg h1{
+    margin-bottom:5px;
+}
+
+.orgbg img{
+    display:inline;
+    height:400px;
+    width:400px;
+    float:right;
+    margin-right:70px;
+    border-radius:10px;
+}
+
+.proj{
+    margin-left:15vw;
+    color:white;
+    margin-bottom:35vh;
+}
+
+.proj h1{
+    font-size:xxx-large;
+    margin-bottom:5px;
+}
+
+.proj img{
+    height:200px;
+    width:400px;
+    float:right;
+    margin-right:50px;
+    border-radius:10px;
+}
+
+.proj2 img{
+    margin-top:-150px;
+    height:200px;
+    width:400px;
+    float:right;
+    margin-right:50px;
+    border-radius:10px;
+}
+
+.button img{
+    margin-top:25.5vh;
+    height:150px;
+    width:150px;
+    margin-left:45vw;
+    margin-bottom:10px;
+}
+
+.footer{
+    background-color:#03203D;
+    height:5vh;
+    padding:10px;
+    width:100vw;
+    position:fixed;
+    bottom:0;
+    color:white;
+}
+
+body.wwd{
+    height:200vh;
+    background:url(images/bgocean2.png);
+    margin-top:20vh;
+}
+
+.introw{
+    color:white;
+    text-align:center;
+    font-size:xx-large;
+    margin-bottom:51px;
+}
+
+.ini{
+    color:white;
+    font-size:x-large;
+    margin-left:15vw;
+    margin-bottom:50vh;
+}
+
+.ini p{
+    font-size:large;
+}
+
+.ini img{
+    height:250px;
+    width:450px;
+    float:right;
+    margin-right:90px;
+    border-radius:10px;
+}
+
+.int{
+    color:white;
+    font-size:x-large;
+    margin-left:15vw;
+    margin-bottom:50vh;
+}
+
+.int p{
+    font-size:large;
+}
+
+.int img{
+    height:300px;
+    width:500px;
+    float:right;
+    margin-right:50px;
+    border-radius:10px;
+}
+
+.act{
+    color:white;
+    font-size:x-large;
+    margin-left:15vw;
+    margin-bottom:10vh;
+}
+
+.act p{
+    font-size:large;
+}
+
+.act img{
+    height:300px;
+    width:400px;
+    float:right;
+    margin-right:60px;
+    border-radius:10px;
+}
+
+body.abt{
+    background:url(images/bg-ocean3.png);
+    background-size:cover;
+    height:300vh;
+}
+
+.abtus{
+    color:white;
+    text-align:center;
+    font-size:xx-large;
+    margin-top:20vh;
+    margin-bottom:40vh;
+}
+
+.abtus p{
+    font-size:large;
+    margin:10px;
+}
+
+.abtus img{
+    height:300px;
+    width:600px;
+    border-radius:10px;
+}
+
+.vis{
+    color:white;
+    font-size:x-large;
+    text-align:center;
+    margin-bottom:20vh;
+}
+
+.vis h1{
+    margin-bottom:1px;
+}
+
+.vis p{
+    font-size:large;
+    margin:30px;
+}
+
+.mis{
+    color:white;
+    font-size:x-large;
+    text-align:center;
+    margin-bottom:30vh;
+}
+
+.mis p{
+    font-size:large;
+    margin:30px;
+}
+
+.hth{
+    color:white;
+    font-size:x-large;
+    margin-left:15vw;
+    margin-bottom:30vh;
+}
+
+.hth p{
+    display:flex;
+}
+.hth img{
+    height:300px;
+    width:400px;
+    float:right;
+    margin-right:60px;
+    border-radius:10px;
+}
+
+.hth2 img{
+    height:300px;
+    width:400px;
+    float:right;
+    margin-right:60px;
+    margin-top:-210px;
+    border-radius:10px;
+}
+.footer{
+    height:5vh;
+    background-image:linear-gradient(#1a3275,#03203D);
+}
+
+.footer p{
+    padding-top:5px;
+    display:inline-block;
+    font-family:'someday';
+}
+
+.icon{
+    background:url(images/sprite3.png);
+    height:45px;
+    width:55px;
+    display:inline-block;
+    border-radius:10px;
+    margin-right:10px;
+    float:right;
+}
+
+#fb{background-position:-439px -146px;margin-right:50px;}
+#twt{background-position:-66px -72px;}
+#pinterest{background-position:-141px -221px;}
+
+
+.fish img{
+   background:url(images/lesgo-button.png);
+   position:absolute;
+   height:200px;
+   width:200px;
+   animation:fish linear infinite 25s;
+}
+
+@keyframes fish{
+    0% {transform: translate(-100px,-50px);}
+    100% {transform: translate(1245px, 200px);}
+}
+
+.pfish img{
+    position:absolute;
+    height:100px;
+    width:100px;
+    animation:pfish linear infinite 20s;
+ }
+
+@keyframes pfish{
+    0% {transform:scale(-2,-2);}
+    100%{transform:scale(3,3);}
+}
+
+.shark img{
+   position:absolute;
+   height:200px;
+   width:200px;
+   animation:shark linear infinite 15s;
+}
+
+@keyframes shark{
+    0% {transform: translate(1015px,1000px) rotate(0deg);}
+    100% {transform: translate(-100px, 1200px) rotate(360deg);}
+}
